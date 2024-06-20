@@ -30,3 +30,13 @@ const plus = function () {
 console.log(typeof plus);   //function
 console.log(typeof info);   //object
 console.log(typeof hero);   //object
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of Memories in JS
+
+// Stack(Primitive Datatypes) and Heap(Non-Primitive Datatypes)
+
+//Stack ke andr jo bhi memory allcate hoti he vo copy krke dete he original memory se.
+
+//Heap ke andr direct vohi original memory location ki hi refrence utha ke dedete hee.
