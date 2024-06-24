@@ -21,4 +21,10 @@ const num = 1000000
 // console.log(Math.min(34,6,11,64));    //gives minimum number from array
 // console.log(Math.max(34,6,11,64));    //gives maximum number from array
 
-console.log(Math.random());
+// console.log(Math.random());         //normal random values under 0 to 1
+// console.log(Math.random()*10 +1);           //isse 0.233 esi ki jgh 1 se zyada ayegi
+// console.log(Math.floor((Math.random()*10)+1));      //isse round of values ayegi
+
+// const min = 1
+// const max = 6
+// console.log(Math.floor(Math.random()*(max-min+1))+min);     // ye dice game jese kam krega random values between 1 to 6
