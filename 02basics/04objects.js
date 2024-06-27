@@ -62,3 +62,14 @@ const usersarr = [
 // output = [ [ 'id', '123abc' ], [ 'name', 'Harry' ], [ 'isloggedin', false ] ]
 
 // console.log(tinderuser.hasOwnProperty('id'));   //checks the object consist of or not
+
+const course={
+    coursename : "js in hindi",
+    fee : 999,
+    courseinstructor : "Hitesh Chourdhary"
+}
+
+// console.log(course.courseinstructor);       //way to print values from keys in js.
+
+// const {courseinstructor : teacher}= course      //proper way to destructure a object
+// console.log(teacher);
