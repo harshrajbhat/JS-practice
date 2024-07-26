@@ -18,3 +18,4 @@ switch (month) {
         console.log("default case running");
         break;
 }
+
