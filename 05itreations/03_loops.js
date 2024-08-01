@@ -25,5 +25,13 @@ map.set('FR', 'France')
 // console.log(map);
 
 for (const [key, value] of map) {
+    // console.log(key, " :- ", value);
+}
+
+const myobj = {
+    'game1' : 'NFS',
+    'game2' : 'GTA'
+}   //for of loops object me kam nhi krte hee
+for (const [key, value] of myobj) {
     console.log(key, " :- ", value);
 }
