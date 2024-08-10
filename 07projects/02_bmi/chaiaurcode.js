@@ -20,17 +20,16 @@ form.addEventListener('submit', function(e){
     results.innerHTML = `<span> ${bmi}  </span><br> `
     
     // Show msg
-    const r = ''
     if (bmi<18.6) {
-        r='You are under weight'
+        msg.innerHTML = `<span> You are below weight </span`
     }
     else if (bmi>18.6 || bmi<24.6) {
-        r='You are in Normal Range'
+        msg.innerHTML = `<span> You are in Normal Range </span`
     }
     else{
-        r='You are Overweight'
+        msg.innerHTML = `<span> You are overweight </span`
     }
-    msg.innerHTML = `<span> ${r}</span`
+    
 
     }
 })
